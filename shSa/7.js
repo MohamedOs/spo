@@ -1,7 +1,7 @@
 var arr7 = [];
 var vars7={};
 function pri7(){
-var queryIndexF7='select * from html where url="https://mobile.twitter.com/hashtag/Ahli_Jeddah" and xpath="//*[@class=\'tweet\']"';
+var queryIndexF7='select * from html where url="https://mobile.twitter.com/hashtag/Al_Shabab_FC" and xpath="//*[@class=\'tweet\']"';
 Titanium.Yahoo.yql(queryIndexF7, function(e){
 vars7.data=e.data;
 function getObjects(obj, key, val) {
