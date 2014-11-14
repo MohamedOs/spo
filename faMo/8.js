@@ -1,7 +1,7 @@
 var arrBg = [];
 var varsBg={};
 function dataBg(num){
-var url="http://maktoob.images.search.yahoo.com/search/images?p=المغرب+المصرى";
+var url="http://maktoob.images.search.yahoo.com/search/images?p=المغرب+الفاسي;
 var xhr = Titanium.Network.createHTTPClient();
 xhr.onload = function () {
 var select = soupselect.select;
