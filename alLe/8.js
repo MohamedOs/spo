@@ -1,7 +1,7 @@
 var arrBg = [];
 var varsBg={};
 function dataBg(num){
-var url="http://maktoob.images.search.yahoo.com/search/images?p=خلفيات+الاهلى+المصرى";
+var url="http://maktoob.images.search.yahoo.com/search/images?p=نادى+العهد+لبنان";
 var xhr = Titanium.Network.createHTTPClient();
 xhr.onload = function () {
 var select = soupselect.select;
