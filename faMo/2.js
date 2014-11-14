@@ -40,7 +40,7 @@ parser.parseComplete(body);
 xhr.onerror = function() {
     Titanium.API.info('error');
 };
-var queryIndexCat='http://www.kooora.com/?n=0&o=nceg&pg='+pageNumber;
+var queryIndexCat='http://www.kooora.com/?n=0&o=ncma&pg='+pageNumber;
 xhr.open("GET",queryIndexCat);
 xhr.send();
 
