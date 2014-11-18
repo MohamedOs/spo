@@ -19,7 +19,7 @@ var handler = new htmlparser.DefaultHandler(function(err, dom) {
 		//Ti.API.info(arr);
 		//Ti.API.info(arr[8]);
 		//Ti.API.info("arr[0]");
-		for(var i=0;i<15;i++){
+		for(var i=0;i<8;i++){
 			var imageRow=arrIn[(i*7)+3];
 			imageRow=imageRow.split('&z=120')[0];
 			arr.push({
