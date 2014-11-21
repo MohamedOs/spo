@@ -9,7 +9,7 @@ var handler = new htmlparser.DefaultHandler(function(err, dom) {
         alert('Error: ' + err);
     } else {
         vars2.data=select(dom,'script');
-        var dataNeu=vars2.data[7].children[0].data;
+        var dataNeu=vars2.data[7].children[0].data+vars2.data[8].children[0].data;
         dataNeu=dataNeu.split('var news = new Array')[1];
         dataNeu=dataNeu.split(');')[0];
         dataNeu=dataNeu.slice(4, -6);
