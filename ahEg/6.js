@@ -10,7 +10,7 @@ var handler = new htmlparser.DefaultHandler(function(err, dom) {
     alert('Error: ' + err);
   } else {
     varsS3.data=select(dom,'script');
-    var dataSingle=varsS3.data[7].children[0].data+varsS3.data[7].children[0].data;
+    var dataSingle=varsS3.data[7].children[0].data+varsS3.data[8].children[0].data;
     var dataSingleImage=dataSingle.split('var article_images = new Array (')[1];
     dataSingleImage=dataSingleImage.split('"");')[0];
     dataSingleImage=dataSingleImage.slice(3, -7);
