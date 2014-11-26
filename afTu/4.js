@@ -13,7 +13,7 @@ var handler = new htmlparser.DefaultHandler(function(err, dom) {
     var dataSingle;
 for(var i=0;i<varsS1.data.length;i++){
 	if(varsS1.data[i].children){
-	dataNeu+=varsS1.data[i].children[0].data;
+	dataSingle+=varsS1.data[i].children[0].data;
 	}
 }
     var dataSingleImage=dataSingle.split('var article_images = new Array (')[1];
