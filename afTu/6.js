@@ -11,9 +11,9 @@ var handler = new htmlparser.DefaultHandler(function(err, dom) {
   } else {
     varsS3.data=select(dom,'script');
         var dataSingle;
-for(var i=0;i<varsS1.data.length;i++){
-	if(varsS1.data[i].children){
-	dataSingle+=varsS1.data[i].children[0].data;
+for(var i=0;i<varsS3.data.length;i++){
+	if(varsS3.data[i].children){
+	dataSingle+=varsS3.data[i].children[0].data;
 	}
 }
     var dataSingleImage=dataSingle.split('var article_images = new Array (')[1];
