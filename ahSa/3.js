@@ -24,7 +24,7 @@ dataNeu+=vars3.data[i].children[0].data;
         //Ti.API.info(arr);
         //Ti.API.info(arr[8]);
         //Ti.API.info("arr[0]");
-        for(var i=0;i<2;i++){
+        for(var i=0;i<6;i++){
             var imageRow=arrIn[(i*7)+3];
             imageRow=imageRow.split('&z=120')[0];
             arr3.push({
